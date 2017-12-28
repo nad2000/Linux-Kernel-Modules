@@ -1,4 +1,5 @@
 obj-m += hello_world.o  # final object
+obj-m += char_driver.o  # final object
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
