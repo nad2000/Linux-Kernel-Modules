@@ -70,6 +70,7 @@ static int __init init_debugfs(void)
 	my_dirent = debugfs_create_dir(FSNAME, NULL);
 	debugfs_create_file(FILENAME, 0666, my_dirent, (void *)kbuffer,
 			    &fops_debugfs);
+	pr_info("File '%s' should be created in '%s'.\n", FILENAME, FSNAME);
 	return 0;
 }
 
