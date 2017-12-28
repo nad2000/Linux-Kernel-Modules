@@ -11,7 +11,7 @@ static int x = 0;
 
 static int __init insert_hello(void)
 {
-	printk(KERN_INFO "Hello World\n");
+	printk(KERN_INFO "Hello World inserted\n");
 	x++;
 	return 0;
 }
