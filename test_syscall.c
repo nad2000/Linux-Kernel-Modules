@@ -4,7 +4,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-
 int main()
 {
 	pid_t tid;
@@ -14,4 +13,3 @@ int main()
 
 	return 0;
 }
-
