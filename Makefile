@@ -1,6 +1,8 @@
 obj-m += hello_world.o  # final object
 obj-m += char_driver.o
 obj-m += debugfs/debugfs_demo.o
+obj-m += print_jiffies.o
+obj-m += debugfs_jiffies.o
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
